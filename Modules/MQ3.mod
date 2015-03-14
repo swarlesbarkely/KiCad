@@ -1,0 +1,45 @@
+PCBNEW-LibModule-V1  Sat 14 Mar 2015 03:35:09 PM CDT
+# encoding utf-8
+Units mm
+$INDEX
+MQ3
+$EndINDEX
+$MODULE MQ3
+Po 0 0 0 15 55049B79 00000000 ~~
+Li MQ3
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "MQ3"
+T1 0 0 1 1 0 0.15 N I 21 N "Val**"
+DC 0 0 5.08 0 0.15 21
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$EndMODULE MQ3
+$EndLIBRARY
